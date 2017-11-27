@@ -15,43 +15,69 @@
     tools:showIn="@layout/activity_about">
 
     <RelativeLayout
+        android:id="@+id/relativeLayout5"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:background="@drawable/blue">
 
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Back to Info" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/cover">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="11dp"
+            app:srcCompat="@drawable/miggy" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/relativeLayout5"
+        android:background="@drawable/gray"
+        android:id="@+id/relativeLayout4">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="67dp"
-            android:text="  I'm Christian Miguel Dorado, and i'm a guy whose been in this world for 19 years, whose existence was due to his mother and father,
-I thank them well enough that caused me to be who I am today. I'm a guy whose raised to respect women, and other genders. I dislike whose doubtful of their gender
-to the point they accept it as if they really are in the opposite sex not in their original gender. I like physical sports such as basketball, baseball and my most favorite of all
-martial arts, i've been training to be stronger mentally and physically since I was in elementary, it is where I encouraged myself to become stronger in order for me to stand up for myself
-against the bullies."
-            android:textColor="#000000"
-            android:textSize="12sp" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/textView2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp"
-            android:text="About the Programmer"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            app:srcCompat="@drawable/miggy" />
+            android:layout_marginTop="11dp"
+            android:text="  I'm Christian Miguel Dorado, and i'm a guy whose been in this world for 19 years, whose existence was due to his mother and father,
+    I thank them well enough that caused me to be who I am today. I'm a guy whose raised to respect women, and other genders. I dislike whose doubtful of their gender
+    to the point they accept it as if they really are in the opposite sex not in their original gender. I like physical sports such as basketball, baseball and my most favorite of all
+    martial arts, i've been training to be stronger mentally and physically since I was in elementary, it is where I encouraged myself to become stronger in order for me to stand up for myself
+    against the bullies."
+            android:textColor="#000000"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="207dp" />
+
     </RelativeLayout>
 
 </RelativeLayout>

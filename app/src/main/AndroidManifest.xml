@@ -7,7 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="Profile"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".Splashed">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,12 +18,12 @@
 
         <activity
             android:name=".First"
-            android:label="My Profile"
+            android:label="About"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
             android:name=".about"
-            android:label="About the Programmer"
+            android:label="Programmer"
             android:theme="@style/AppTheme.NoActionBar" />
 
     </application>
